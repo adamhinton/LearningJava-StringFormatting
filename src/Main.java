@@ -7,5 +7,12 @@ public class Main {
 
         System.out.println(bulletIt);
 
+        String textBlock = """
+                    Print a bulleted list:
+                        \u2022 First Point
+                             \u2022 Second Point""";
+
+        System.out.println(textBlock);
+
     }
 }
